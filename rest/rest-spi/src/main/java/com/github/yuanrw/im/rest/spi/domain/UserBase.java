@@ -8,7 +8,6 @@ package com.github.yuanrw.im.rest.spi.domain;
  */
 public class UserBase {
 
-    //id
     private String id;
     private String username;
 
