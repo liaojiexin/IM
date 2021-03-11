@@ -8,9 +8,7 @@ package com.github.yuanrw.im.rest.spi.domain;
  */
 public class UserBase {
 
-    //用户通行id
     private String id;
-    //用户名称
     private String username;
 
     public String getId() {
