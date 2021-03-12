@@ -30,7 +30,7 @@ COPY src/main/resources/application-docker.properties .
 COPY src/main/bin/start-docker.sh .
 COPY src/main/bin/wait-for-it.sh .
 
-CMD /bin/bash wait-for-it.sh -t 0 im-mysql:3306 --strict -- \
+CMD /bin/bash wait-for-it.sh -t 0 im-mysql:13306 --strict -- \
     /bin/bash wait-for-it.sh -t 0 im-redis:6379 --strict -- \
     /bin/bash wait-for-it.sh -t 0 im-rabbit:5672 --strict -- \
     /bin/bash start-docker.sh

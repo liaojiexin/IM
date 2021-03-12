@@ -8,6 +8,7 @@
     <artifactId>IM</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
+    <!--  模块  -->
     <modules>
         <module>rest</module>
         <module>client</module>
@@ -19,6 +20,7 @@
         <module>user-status</module>
     </modules>
 
+    <!--  版本号  -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <netty.version>4.1.38.Final</netty.version>
@@ -34,6 +36,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <!--    spring-boot-dependencies理解:https://www.cnblogs.com/sjshare/p/10669001.html            -->
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
                 <version>${spring.boot.version}</version>
@@ -56,6 +59,7 @@
                 <version>${netty.version}</version>
             </dependency>
             <dependency>
+                <!--     google第三方库:https://www.cnblogs.com/willsuna/p/5224504.html      -->
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>27.0.1-jre</version>
