@@ -14,6 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
+            <!--     认识SpringBoot中的webFlux：https://baijiahao.baidu.com/s?id=1640589277937567918&wfr=spider&for=pc       -->
             <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>
         <dependency>

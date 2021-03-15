@@ -10,10 +10,12 @@ import javax.validation.constraints.NotEmpty;
  */
 public class UserReq {
 
+    //账号
     @NotEmpty
     //    @Length(min = 6, max = 30)
     private String username;
 
+    //密码
     @NotEmpty
     private String pwd;
 

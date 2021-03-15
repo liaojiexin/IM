@@ -10,9 +10,11 @@ import javax.validation.constraints.NotEmpty;
  */
 public class RelationReq {
 
+    //用户1id
     @NotEmpty
     private String userId1;
 
+    //用户2id
     @NotEmpty
     private String userId2;
 
