@@ -21,7 +21,7 @@ import javax.annotation.PostConstruct;
  * Date: 2019-05-15
  * Time: 22:58
  *
- * @author yrw
+ * @author yrw   下线监听类
  */
 @Component
 public class OfflineListen implements ChannelAwareMessageListener {

@@ -13,6 +13,7 @@
 
     <dependencies>
         <dependency>
+            <!--     深入ProtoBuf：https://www.jianshu.com/p/a24c88c0526a       -->
             <groupId>com.google.protobuf</groupId>
             <artifactId>protobuf-java</artifactId>
         </dependency>
